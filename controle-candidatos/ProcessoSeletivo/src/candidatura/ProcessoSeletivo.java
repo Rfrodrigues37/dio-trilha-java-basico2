@@ -11,7 +11,7 @@ public class ProcessoSeletivo {
         analisarCandidato(1400.0);
         analisarCandidato(2200.0);
         analisarCandidato(2000.0);
-
+        
         System.out.println("\n-- Seleção de candidatos --");
         selecaoCandidatos();
 
@@ -21,6 +21,8 @@ public class ProcessoSeletivo {
         String[] candidatos = {"Maria", "João", "Ana", "Pedro", "Clara", "Lucas", "Isabella", "Bruno", "Carolina", "Gustavo"};
         for (String candidato : candidatos) {
             entrandoEmContato(candidato);
+
+           
         }
     }
 

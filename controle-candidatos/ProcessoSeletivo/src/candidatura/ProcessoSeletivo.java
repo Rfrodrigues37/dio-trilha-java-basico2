@@ -9,21 +9,39 @@ public class ProcessoSeletivo {
         System.out.println("Processo seletivo");
 
         analisarCandidato(1400.0);
+        pausa();
         analisarCandidato(2200.0);
+        pausa();
         analisarCandidato(2000.0);
-        
+        pausa();
         System.out.println("\n-- Seleção de candidatos --");
+        pausa();
         selecaoCandidatos();
 
         System.out.println("\n-- Imprimir Selecionados --");
+        pausa();
         imprimirSelecionados();
 
         String[] candidatos = {"Maria", "João", "Ana", "Pedro", "Clara", "Lucas", "Isabella", "Bruno", "Carolina", "Gustavo"};
         for (String candidato : candidatos) {
             entrandoEmContato(candidato);
-
-           
+            pausa();
+          
         }
+    }
+
+    static void pausa() {
+        try {
+
+            Thread.sleep(1000);
+           } catch (InterruptedException e) {
+
+            e.printStackTrace();
+
+           }
+
+
+
     }
 
     static void analisarCandidato(double salarioPretendido) {

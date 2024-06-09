@@ -1,9 +1,9 @@
 package com.mastersoft.clinical.model;
-
-public class ExameService {
+public class Exame {
 
     public static void main(String[] args) {
-        System.out.println("ExameService");
+        System.out.println("Exame 1");
+
     }
     
 }

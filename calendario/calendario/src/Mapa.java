@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Mapa {
     
     public static void main(String[] args) {
-        //Rotina que cria os turnos dados do turno inserindo os dias trabalhados e folga
+        
+        /*ABAIXO CRIEI OBJETOS QUE SÃO AS INFORMAÇÕES DE QUANTOS DIAS EU TRABALHO E QUANTOS EU FOLGO */
         Turnos N1 = new Turnos(); // N1 = 08 as 16
         N1.dias = 4;
         N1.folga = 1;
@@ -22,12 +23,15 @@ public class Mapa {
         N3.folga = 2;
         
              
-
+        /* CHAMO A FUNÇÃO E DEMONSTRO O NUMERO DE DIAS */
         int diferencaDiasInt = caputurarData();
+
+        //TODO Subistituir por raciocinio que calcule qual data é folga ou não
+        
         System.out.println("Diferença em dias: " + diferencaDiasInt);
 
     }
-            
+       /*FUNÇÃO QUE CALCULA O NUMERO DE DIAS ENTRE A DATA INICIAL DO CALENDARIO E O DIA */     
           public static int caputurarData() {
             LocalDate data1 = LocalDate.of(2024, 1, 2);
             Scanner scanner = new Scanner(System.in);

@@ -26,7 +26,7 @@ public class Mapa {
         /* CHAMO A FUNÇÃO E DEMONSTRO O NUMERO DE DIAS */
         int diferencaDiasInt = caputurarData();
 
-        //TODO Subistituir por raciocinio que calcule qual data é folga ou não
+        //TODO Subistituir por raciocinio que calcule qual data é folga ou não.
         
         System.out.println("Diferença em dias: " + diferencaDiasInt);
 

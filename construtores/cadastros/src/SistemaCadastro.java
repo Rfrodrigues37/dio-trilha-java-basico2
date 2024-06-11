@@ -6,3 +6,4 @@ public class SistemaCadastro {
          System.out.println(marcos.getNome() + "-" + marcos.getCpf());
     }
 }
+ 

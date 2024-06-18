@@ -1,16 +1,10 @@
-public class ContaCorrente {
+/* Conceito de herança em prática */
+public class ContaCorrente extends Conta {
 
-    public int agencia () {
-        return 0;
+
+    public ContaCorrente() {
+
+
     }
-
-    public int numero () {
-        return 0;
-    }
-
-    public double saldo() {
-        return 0;
-    }
-
 
 }

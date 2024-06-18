@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/banco-digital/banco-digital.iml" filepath="$PROJECT_DIR$/banco-digital/banco-digital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendario/calendario.iml" filepath="$PROJECT_DIR$/calendario/calendario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/construtores/construtores.iml" filepath="$PROJECT_DIR$/construtores/construtores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conta-banco/conta-banco.iml" filepath="$PROJECT_DIR$/conta-banco/conta-banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" filepath="$PROJECT_DIR$/controle-candidatos/controle-candidatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-trilha-iphone-poo/dev-trilha-iphone-poo.iml" filepath="$PROJECT_DIR$/dev-trilha-iphone-poo/dev-trilha-iphone-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilha-java-basico2.iml" filepath="$PROJECT_DIR$/.idea/dio-trilha-java-basico2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudo-pacotes/estudo-pacotes.iml" filepath="$PROJECT_DIR$/estudo-pacotes/estudo-pacotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getters-e-setters/getters-e-setters.iml" filepath="$PROJECT_DIR$/getters-e-setters/getters-e-setters.iml" />
+    </modules>
+  </component>
+</project>

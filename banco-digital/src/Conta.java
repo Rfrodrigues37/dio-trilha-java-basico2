@@ -1,10 +1,10 @@
 
 public class Conta implements IConta {
-  /*Caracteriscicas - todas private, ou seja só podem ser vista dentro da classe*/
+  //Caracteriscicas - todas private, ou seja só podem ser vista dentro da classe*/
 
-    private int agencia;
-    private int numero;
-    private double saldo;
+    protected int agencia;
+    protected int numero;
+    protected double saldo;
 
 
 

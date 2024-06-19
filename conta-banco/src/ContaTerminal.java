@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//
+// Conta banco simples (VS Code)
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         //TODO: Conhecer e importar a classe Scanner

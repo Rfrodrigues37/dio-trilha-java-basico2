@@ -1,5 +1,5 @@
 package lanchonete;
-
+//Estudo e criação de pacotes (VS Code)
 import lanchonete.area.cliente.Cliente;
 import lanchonete.atendimento.Atendente;
 import lanchonete.atendimento.cozinha.Almoxarife;

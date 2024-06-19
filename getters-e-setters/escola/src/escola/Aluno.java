@@ -1,5 +1,5 @@
 package escola;
-
+//Getters e Setters (VS Code)
 public class Aluno {
     private String nome; //atributos da classe
     private int idade;

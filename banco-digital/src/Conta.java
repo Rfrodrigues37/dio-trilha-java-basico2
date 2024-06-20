@@ -4,7 +4,7 @@ public class Conta implements IConta {
     //protected permite que as classes filhas consigam exergar tudo o que a classe mãe tem
 
     // private - aquilo que só seu pai sabe 
-    // protected - seu pai sabe, mas não contou pra mais ninguems
+    // protected - seu pai sabe, mas não contou pra mais ninguem
     // public - o que os seus vizinhos sabem 
 
 
@@ -43,7 +43,7 @@ public class Conta implements IConta {
 
 
     /*Getters - os getters podem ser chamados externamente por serem public.
-    isto é feito para proteção das "caracterisctivas da classe, processo conhecido como encapsulamento*/
+    isto é feito para proteção das "caracteriscticas da classe, processo conhecido como encapsulamento*/
     
     public int getAgencia () {
         return agencia;

@@ -7,10 +7,10 @@ public class Main {
         //Banco digital
 
         Conta cc = new ContaCorrente();
-        cc.depositar(1000);
+        cc.depositar(200);
         
         Conta poupanca = new ContaPoupanca();
-        cc.transferir(500, poupanca);
+        cc.transferir(20, poupanca);
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();

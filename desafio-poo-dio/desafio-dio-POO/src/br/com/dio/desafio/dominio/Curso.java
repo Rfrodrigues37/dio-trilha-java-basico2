@@ -1,10 +1,14 @@
 package br.com.dio.desafio.dominio;
-
+//PRIVATE: só tem acesso ou pode modificar dentro dessa classe;
 public class Curso {
-   private String titulo;
-   private String descricao;
-   private int cargaHoraria;
+    private String titulo;
+    private String descricao;
+    private int cargaHoraria;
 
+
+//PUBLIC: Acesso livre a todos
+    public Curso() {
+    }
 
     public String getTitulo() {
         return titulo;
